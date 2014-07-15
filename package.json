@@ -1,10 +1,10 @@
 {
-  "name": "translitit-latin-to-mkhedruli-georgian",
+  "name": "translitit-mkhedruli-georgian-to-ipa",
   "version": "0.1.0",
   "description": "A Latin to Mkhedruli Georgian transliteration module",
   "author": "Batumi App Devs <batumi-apps@googlegroups.com>",
-  "repository": "git@github.com:batumi/translitit-latin-to-mkhedruli-georgian.git",
-  "main": "lib/translitit-latin-to-mkhedruli-georgian.js",
+  "repository": "git@github.com:batumi/translitit-mkhedruli-georgian-to-ipa.git",
+  "main": "lib/translitit-mkhedruli-georgian-to-ipa.js",
   "dependencies": {
     "translitit-engine": "0.1.1"
   },
