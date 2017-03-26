@@ -55,6 +55,11 @@ describe('A Mkhedruli Georgian to IPA transliteration', function() {
     assert.equal(transliteration('იგივე_იგივე'), 'igive_igive');
   });
 
+  it('should transliterate legal texts', function() {
+    assert.equal(transliteration('3. საქართველოს უზენაესი სასამართლოს 2009 წლის 18 თებერვლის განჩინება;'), 
+      '3. sakʰartʰvelos uzenaesi sasamartʰlos 2009 tsʼlis 18 tʰebervlis gantʃʰineba;');
+  });
+
   it('should support empty and null string', function() {
     assert.equal(transliteration(''), '');
     assert.equal(transliteration(), '');
