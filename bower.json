@@ -6,14 +6,16 @@
   "authors": [
     "batumi-apps@googlegroups.com"
   ],
-  "description": "A Latin to Mkhedruli Georgian transliteration module",
+  "description": "A Mkhedruli Georgian to International Phonetic Alphabet transliteration module",
   "moduleType": [
     "globals"
   ],
   "keywords": [
     "kartuli",
     "georgian",
-    "transliteration"
+    "transliteration",
+    "ipa",
+    "international phonetic alhpabet"
   ],
   "license": "MIT",
   "ignore": [
