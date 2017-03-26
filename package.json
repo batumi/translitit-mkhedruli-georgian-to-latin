@@ -1,6 +1,6 @@
 {
   "name": "translitit-mkhedruli-georgian-to-ipa",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A Mkhedruli Georgian to International Phonetic Alphabet transliteration module",
   "author": "Batumi App Devs <batumi-apps@googlegroups.com>",
   "repository": "git@github.com:batumi/translitit-mkhedruli-georgian-to-ipa.git",
