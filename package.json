@@ -17,6 +17,7 @@
   "scripts": {
     "build": "browserify index.js -o translitit-mkhedruli-georgian-to-ipa.js",
     "lint": "jshint lib test",
+    "preversion": "npm run build && npm test",
     "test": "mocha test",
     "watch": "mocha -w test"
   },
