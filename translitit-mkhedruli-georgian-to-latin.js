@@ -1,9 +1,9 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 (function (global){
-global.Translitit = require('./lib/translitit-mkhedruli-georgian-to-ipa');
+global.Translitit = require('./lib/translitit-mkhedruli-georgian-to-latin');
 
 }).call(this,typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./lib/translitit-mkhedruli-georgian-to-ipa":2}],2:[function(require,module,exports){
+},{"./lib/translitit-mkhedruli-georgian-to-latin":2}],2:[function(require,module,exports){
 /* global require module */
 'use strict';
 
@@ -16,39 +16,37 @@ global.Translitit = require('./lib/translitit-mkhedruli-georgian-to-ipa');
     'ო': 'o',
     'უ': 'u',
 
-    'პ': 'pʼ',
-    'ფ': 'pʰ',
+    'პ': 'p',
+    'ფ': 'p’',
     'ბ': 'b',
     'ვ': 'v',
     'მ': 'm',
 
-    'ტ': 'tʼ',
-    'თ': 'tʰ',
+    'ტ': 't',
+    'თ': 't’',
     'დ': 'd',
     'ნ': 'n',
     'ს': 's',
     'ზ': 'z',
-    'წ': 'tsʼ',
-    'ც': 'tsʰ',
+    'წ': 'ts',
+    'ც': 'ts’',
     'ძ': 'dz',
-    'ჯ': 'dʒ',
-    'ჩ': 'tʃʰ',
-    'ჭ': 'tʃʼ',
-    'შ': 'ʃ',
-    'ჟ': 'ʒ',
+    'ჯ': 'dz',
+    'ჩ': 'ch’',
+    'ჭ': 'ch',
+    'შ': 'sh',
+    'ჟ': 'zh',
     'რ': 'r',
     'ლ': 'l',
 
-    'კ': 'kʼ',
-    'ქ': 'kʰ',
+    'კ': 'k',
+    'ქ': 'k’',
     'გ': 'g',
-    'ღ': 'ɣ',
+    'ღ': 'gh',
     'ხ': 'x',
 
     'ყ': 'q’',
-    'ჰ': 'h',
-
-    'chemi': 'ჩემი'
+    'ჰ': 'h'
   });
 })(typeof exports === 'undefined' ? this.Translitit = {} : exports);
 

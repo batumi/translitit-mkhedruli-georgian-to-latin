@@ -7,45 +7,45 @@ var assert = require('chai').assert;
 
 describe('A Mkhedruli Georgian to IPA transliteration', function() {
   it('should work with common words', function() {
-    assert.equal(transliteration('უპრეცედენტო'), 'upʼretsʰedentʼo');
-    assert.equal(transliteration('მასშტაბის'), 'masʃtʼabis');
-    assert.equal(transliteration('ჰაკათონი'), 'hakʼatʰoni');
-    assert.equal(transliteration('ჩატარდება'), 'tʃʰatʼardeba');
+    assert.equal(transliteration('უპრეცედენტო'), 'uprets’edento');
+    assert.equal(transliteration('მასშტაბის'), 'masshtabis');
+    assert.equal(transliteration('ჰაკათონი'), 'hakat’oni');
+    assert.equal(transliteration('ჩატარდება'), 'ch’atardeba');
     assert.equal(transliteration('ორ'), 'or');
-    assert.equal(transliteration('დღიანი'), 'dɣiani');
-    assert.equal(transliteration('შეჯიბრია'), 'ʃedʒibria');
-    assert.equal(transliteration('რომელშიც'), 'romelʃitsʰ');
-    assert.equal(transliteration('პროგრამისტები'), 'pʼrogramistʼebi');
-    assert.equal(transliteration('დეველოპერები'), 'developʼerebi');
+    assert.equal(transliteration('დღიანი'), 'dghiani');
+    assert.equal(transliteration('შეჯიბრია'), 'shedzibria');
+    assert.equal(transliteration('რომელშიც'), 'romelshits’');
+    assert.equal(transliteration('პროგრამისტები'), 'programistebi');
+    assert.equal(transliteration('დეველოპერები'), 'developerebi');
     assert.equal(transliteration('დიზაინერები'), 'dizainerebi');
     assert.equal(transliteration('და'), 'da');
-    assert.equal(transliteration('ინჟინრები'), 'inʒinrebi');
-    assert.equal(transliteration('მთელი'), 'mtʰeli');
-    assert.equal(transliteration('ბათუმი'), 'batʰumi');
-    assert.equal(transliteration('საქართველოს'), 'sakʰartʰvelos');
-    assert.equal(transliteration('უნივერსიტეტებიდან'), 'universitʼetʼebidan');
-    assert.equal(transliteration('სკოლებიდან'), 'skʼolebidan');
-    assert.equal(transliteration('მიიღებენ'), 'miiɣeben');
-    assert.equal(transliteration('მონაწილეობას'), 'monatsʼileobas');
-    assert.equal(transliteration('სტუდენტი'), 'stʼudentʼi');
-    assert.equal(transliteration('მოსწავლე'), 'mostsʼavle');
+    assert.equal(transliteration('ინჟინრები'), 'inzhinrebi');
+    assert.equal(transliteration('მთელი'), 'mt’eli');
+    assert.equal(transliteration('ბათუმი'), 'bat’umi');
+    assert.equal(transliteration('საქართველოს'), 'sak’art’velos');
+    assert.equal(transliteration('უნივერსიტეტებიდან'), 'universitetebidan');
+    assert.equal(transliteration('სკოლებიდან'), 'skolebidan');
+    assert.equal(transliteration('მიიღებენ'), 'miigheben');
+    assert.equal(transliteration('მონაწილეობას'), 'monatsileobas');
+    assert.equal(transliteration('სტუდენტი'), 'studenti');
+    assert.equal(transliteration('მოსწავლე'), 'mostsavle');
     assert.equal(transliteration('მსგავსი'), 'msgavsi');
     assert.equal(transliteration('სიდიდის'), 'sididis');
-    assert.equal(transliteration('სტუდენტური'), 'stʼudentʼuri');
-    assert.equal(transliteration('ევროპის'), 'evropʼis');
-    assert.equal(transliteration('კონტინენტზე'), 'kʼontʼinentʼze');
-    assert.equal(transliteration('პირველია'), 'pʼirvelia');
-    assert.equal(transliteration('შთაბეჭდილება'), 'ʃtʰabetʃʼdileba');
+    assert.equal(transliteration('სტუდენტური'), 'studenturi');
+    assert.equal(transliteration('ევროპის'), 'evropis');
+    assert.equal(transliteration('კონტინენტზე'), 'kontinentze');
+    assert.equal(transliteration('პირველია'), 'pirvelia');
+    assert.equal(transliteration('შთაბეჭდილება'), 'sht’abechdileba');
   });
 
   it('should work with facebook kartuli-style', function() {
     assert.equal(transliteration('ჩემი ლამაზი რწალი.ისუპერ კორიწი ისე საგაპაო პოლი.'),
-      'tʃʰemi lamazi rtsʼali.isupʼer kʼoritsʼi ise sagapʼao pʼoli.');
-    assert.equal(transliteration('რა ყალიხაფ უფუფუფ:*:*'), 'ra q’alixapʰ upʰupʰupʰ:*:*');
+      'ch’emi lamazi rtsali.isuper koritsi ise sagapao poli.');
+    assert.equal(transliteration('რა ყალიხაფ უფუფუფ:*:*'), 'ra q’alixap’ up’up’up’:*:*');
     assert.equal(transliteration('ხახახა'), 'xaxaxa');
     assert.equal(transliteration('ხო ვიზამტ მაგას არაა პრობლემა, ახლა უკვე მეწ ჭამოტრია ამ პროეყტმა'),
-      'xo vizamtʼ magas araa pʼroblema, axla ukʼve metsʼ tʃʼamotʼria am pʼroeq’tʼma');
-    assert.equal(transliteration('კიიი გავიხსენებ არიფას ნასწავლს'), 'kʼiii gavixseneb aripʰas nastsʼavls');
+      'xo vizamt magas araa problema, axla ukve mets chamotria am proeq’tma');
+    assert.equal(transliteration('კიიი გავიხსენებ არიფას ნასწავლს'), 'kiii gavixseneb arip’as nastsavls');
   });
 
   it('should work with dashes', function() {
@@ -58,7 +58,7 @@ describe('A Mkhedruli Georgian to IPA transliteration', function() {
 
   it('should transliterate legal texts', function() {
     assert.equal(transliteration('3. საქართველოს უზენაესი სასამართლოს 2009 წლის 18 თებერვლის განჩინება;'), 
-      '3. sakʰartʰvelos uzenaesi sasamartʰlos 2009 tsʼlis 18 tʰebervlis gantʃʰineba;');
+      '3. sak’art’velos uzenaesi sasamart’los 2009 tslis 18 t’ebervlis ganch’ineba;');
   });
 
   it('should support empty and null string', function() {
