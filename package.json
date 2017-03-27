@@ -1,10 +1,10 @@
 {
-  "name": "translitit-mkhedruli-georgian-to-ipa",
+  "name": "translitit-mkhedruli-georgian-to-latin",
   "version": "1.0.0",
   "description": "A Mkhedruli Georgian to International Phonetic Alphabet transliteration module",
   "author": "Batumi App Devs <batumi-apps@googlegroups.com>",
-  "repository": "git@github.com:batumi/translitit-mkhedruli-georgian-to-ipa.git",
-  "main": "lib/translitit-mkhedruli-georgian-to-ipa.js",
+  "repository": "git@github.com:batumi/translitit-mkhedruli-georgian-to-latin.git",
+  "main": "lib/translitit-mkhedruli-georgian-to-latin.js",
   "dependencies": {
     "translitit-engine": "0.1.1"
   },
@@ -14,7 +14,7 @@
     "mocha": "^3.2.0"
   },
   "scripts": {
-    "build": "browserify index.js -o translitit-mkhedruli-georgian-to-ipa.js",
+    "build": "browserify index.js -o translitit-mkhedruli-georgian-to-latin.js",
     "lint": "jshint lib test",
     "preversion": "npm run build && npm test",
     "test": "mocha test",

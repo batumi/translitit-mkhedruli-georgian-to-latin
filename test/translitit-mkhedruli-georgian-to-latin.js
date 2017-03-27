@@ -2,7 +2,7 @@
 /*jslint maxlen:140*/
 'use strict';
 
-var transliteration = require('../lib/translitit-mkhedruli-georgian-to-ipa');
+var transliteration = require('../lib/translitit-mkhedruli-georgian-to-latin');
 var assert = require('chai').assert;
 
 describe('A Mkhedruli Georgian to IPA transliteration', function() {

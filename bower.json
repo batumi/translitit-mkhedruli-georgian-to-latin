@@ -1,8 +1,8 @@
 {
-  "name": "translitit-mkhedruli-georgian-to-ipa",
-  "main": "translitit-mkhedruli-georgian-to-ipa.js",
+  "name": "translitit-mkhedruli-georgian-to-latin",
+  "main": "translitit-mkhedruli-georgian-to-latin.js",
   "version": "1.0.0",
-  "homepage": "https://github.com/batumi/translitit-mkhedruli-georgian-to-ipa",
+  "homepage": "https://github.com/batumi/translitit-mkhedruli-georgian-to-latin",
   "authors": [
     "batumi-apps@googlegroups.com"
   ],

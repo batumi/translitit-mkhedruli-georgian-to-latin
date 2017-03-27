@@ -1,1 +1,1 @@
-global.Translitit = require('./lib/translitit-mkhedruli-georgian-to-ipa');
+global.Translitit = require('./lib/translitit-mkhedruli-georgian-to-latin');

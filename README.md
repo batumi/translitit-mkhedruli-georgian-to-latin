@@ -10,13 +10,13 @@ This project is build using the [translitit-engine][translitit-engine], and its 
 ## Installation and Usage
 Add it to your project by typing the following in your project root.
 
-    npm install translitit-mkhedruli-georgian-to-ipa --save
+    npm install translitit-mkhedruli-georgian-to-latin --save
     OR
-	bower install translitit-mkhedruli-georgian-to-ipa --save
+	bower install translitit-mkhedruli-georgian-to-latin --save
 
 Now, you can include the transliteration service in your project by including it:
 
-    var translit = require('translitit-mkhedruli-georgian-to-ipa');
+    var translit = require('translitit-mkhedruli-georgian-to-latin');
 
 `translit` will now be a function, that will transliterate its input.
 
