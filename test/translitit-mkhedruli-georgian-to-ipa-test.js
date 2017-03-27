@@ -21,6 +21,7 @@ describe('A Mkhedruli Georgian to IPA transliteration', function() {
     assert.equal(transliteration('და'), 'da');
     assert.equal(transliteration('ინჟინრები'), 'inʒinrebi');
     assert.equal(transliteration('მთელი'), 'mtʰeli');
+    assert.equal(transliteration('ბათუმი'), 'batʰumi');
     assert.equal(transliteration('საქართველოს'), 'sakʰartʰvelos');
     assert.equal(transliteration('უნივერსიტეტებიდან'), 'universitʼetʼebidan');
     assert.equal(transliteration('სკოლებიდან'), 'skʼolebidan');

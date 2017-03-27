@@ -10,7 +10,6 @@
   },
   "devDependencies": {
     "browserify": "^3.44.0",
-    "buster": "0.7.6",
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
   },

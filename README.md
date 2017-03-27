@@ -23,6 +23,13 @@ Now, you can include the transliteration service in your project by including it
     translit('იგივე'); // returns 'igive'
 
 
+This matches the Transliteration from Wikipedia although the `ʰ` are most likely phonetic, rather than phonemic.
+
+## Related libraries
+
+* https://github.com/batumi/translitit-latin-to-mkhedruli-georgian
+* https://github.com/batumi/translitit-mkhedruli-georgian-to-latin
+
 ## Development
 
 After cloning the project you will have to run `npm install` in the project root. This will install the testing dependencies.
